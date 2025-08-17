@@ -22,36 +22,31 @@
   <body>
     <header class="header">
       <div class="container header-items">
-        <a class="header-link" href="#">KOSMdev</a>
+        <a class="header-link" href="#">ARTdev</a>
         <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-item-list">головна</li>
-            <li class="header-item-list">технологія</li>
-            <li class="header-item-list">портволіо</li>
-            <li class="header-item-list">послуги</li>
-            <li class="header-item-list">контакти</li>
-          </ul>
+            <a class="header-item-list" href="#home">головна</a>
+            <a class="header-item-list" href="#technology">технологія</a>
+            <a class="header-item-list" href="#portfolio">портволіо</a>
+            <a class="header-item-list" href="#services">послуги</a>
+            <a class="header-item-list" href="#contact">контакти</a>
         </nav>
       </div>
     </header>
     <main class="main">
-      <section class="main-one-section">
-        <div class="container">
+      <section class="main-one-section" id="home">
+        <div class="container one">
+          <div class="one-section">
           <h1 class="main-title-one">Заголовок</h1>
           <p class="main-paragraf-one">
             текст текст текст текст текст текст текст текст текст текст текст
             текст текст текст текст текст текст текст текст текст
-            <img
-              src="./images/Macbook-Pro.png"
-              srcset="./images/MacBook-Pro.png 1x, ./images/MacBook-Pro-2x.png 2x" alt="Macbook-Pro"
-              class="img-one"
-              width="819"
-            />
           </p>
-          <button class="btn-one">Обговорити проект</button>
+          <button class="btn-one"><a href="#footer" class="btn-one-a">Обговорити проект</a></button>
+          </div>
+          <img src="./images/Macbook-Pro.png" srcset="./images/MacBook-Pro.png 1x, ./images/MacBook-Pro-2x.png 2x" alt="Macbook-Pro" class="img-one"/>
         </div>
       </section>
-      <section class="main-two-section">
+      <section class="main-two-section" id="technology">
         <div class="container">
           <h2 class="main-title-technology">
             технології <span class="main-number">01</span>
@@ -60,44 +55,37 @@
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-html"></use></svg>HTML
-              </a>
+                  <use href="./images/icons.svg#icon-html"></use></svg>HTML</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-css"></use></svg>CSS
-              </a>
+                  <use href="./images/icons.svg#icon-css"></use></svg>CSS</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-gulp"></use></svg>Gulp
-              </a>
+                  <use href="./images/icons.svg#icon-gulp"></use></svg>Gulp</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-s-css"></use></svg>SCSS
-              </a>
+                  <use href="./images/icons.svg#icon-s-css"></use></svg>SCSS</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-Git"></use></svg>GIT
-              </a>
+                  <use href="./images/icons.svg#icon-Git"></use></svg>GIT</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-java-script"></use></svg>JS
-              </a>
+                  <use href="./images/icons.svg#icon-java-script"></use></svg>JS</a>
             </li>
             <li class="main-two-list">
               <a href="#" class="main-two-list-link">
                 <svg class="svg-items" width="64" height="64">
-                  <use href="./images/icons.svg#icon-wordpress"></use></svg>WordPress
-              </a>
+                  <use href="./images/icons.svg#icon-wordpress"></use></svg>WordPress</a>
             </li>
           </ul>
           <ul class="main-two-item">
@@ -118,7 +106,7 @@
           </ul>
         </div>
       </section>
-      <section class="main-three-section">
+      <section class="main-three-section" id="portfolio">
         <div class="container">
           <h2 class="main-title-portfolio">портфоліо <span class="main-number">02</span></h2>
 
@@ -154,6 +142,18 @@
             <button class="main-btn" >переглянути</button>
             </div>
           </div>
+          <div class="main-tree-btn">
+          <button class="main-btn-all">більше проектів</button>
+          </div>
+        </div>
+      </section>
+      <section class="main-four-section" id="services">
+        <div class="container">
+          <h2 class="main-title-services">послуги <span class="main-number">03</span></h2>
+          <ul class="main-four-list">
+            <li class="main-four-item">
+              <h3 class="main-four-title">Назва послуги</h3>
+              <p class="main-four-paragraph">
         </div>
       </section>
     </main>
